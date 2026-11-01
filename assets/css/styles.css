@@ -17,3 +17,7 @@
 .evidence-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.evidence-card{margin:0}.evidence-placeholder{min-height:175px;border:1px dashed #9bbab4;border-radius:14px;background:linear-gradient(145deg,#e9f0f2,#f7f9fa);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:18px;color:#26364a}.evidence-placeholder span{font:9px "DM Mono",monospace;letter-spacing:.12em;color:#34877c;margin-bottom:12px}.evidence-placeholder strong{font-size:14px}.evidence-placeholder small{font-size:10px;color:#69788b;max-width:220px;margin-top:7px}.evidence-card figcaption{font:9px "DM Mono",monospace;color:#758396;margin-top:8px}
 @media(max-width:680px){.evidence-grid{grid-template-columns:1fr 1fr}.evidence-placeholder{min-height:150px}}
 @media(max-width:420px){.evidence-grid{grid-template-columns:1fr}}
+
+/* Profile portrait image */
+.portrait-photo{display:block;padding:0;overflow:hidden}
+.portrait-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
