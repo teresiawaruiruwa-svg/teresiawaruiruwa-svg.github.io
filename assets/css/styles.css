@@ -28,3 +28,13 @@
 .completion-panel a{font-size:11px;font-weight:800;color:var(--accent);white-space:nowrap}
 .completion-panel a:hover{text-decoration:underline;text-underline-offset:4px}
 @media(max-width:420px){.completion-panel{gap:10px}.completion-panel img{width:64px;height:64px}}
+
+
+/* Enforce compact completion icons and prevent project-card overflow */
+.project-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.project-card{min-width:0;overflow:hidden}
+.completion-panel{width:100%;min-width:0;min-height:104px;display:flex;align-items:center;justify-content:flex-start;gap:18px;overflow:hidden}
+.completion-panel img{display:block!important;width:68px!important;height:68px!important;max-width:68px!important;max-height:68px!important;min-width:68px!important;min-height:68px!important;flex:0 0 68px;object-fit:contain!important;object-position:center;border-radius:8px}
+.completion-panel a{min-width:0;white-space:normal}
+@media(max-width:900px){.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.project-card:last-child{grid-column:auto}}
+@media(max-width:680px){.project-grid{grid-template-columns:minmax(0,1fr)}.project-card:last-child{grid-column:auto}}
