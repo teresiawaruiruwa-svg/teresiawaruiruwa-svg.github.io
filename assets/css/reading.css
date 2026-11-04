@@ -1,8 +1,38 @@
-.reading-page{background:#f5f7f8;color:#172235}.reading-main{padding:54px 0 80px}.reading-container{width:min(850px,calc(100% - 40px));margin:0 auto}.back-link{display:inline-block;color:#287c72;font-size:12px;font-weight:800;margin-bottom:28px}.reading-hero{padding:34px 0 30px;border-bottom:1px solid #dce3e8}.reading-hero h1{font-size:clamp(34px,6vw,58px);line-height:1.08;letter-spacing:-.045em;margin:14px 0}.reading-deck{max-width:680px;font-size:17px;line-height:1.7;color:#5d6b7d}.reading-meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:24px;font:10px 'DM Mono',monospace;letter-spacing:.08em;color:#718092}.reading-content{padding:30px 0;font-size:15px;line-height:1.85;color:#344256}.reading-content h2{font-size:25px;line-height:1.25;color:#172235;margin:42px 0 14px;letter-spacing:-.025em}.reading-content h3{font-size:18px;color:#172235;margin:27px 0 8px}.reading-content p{margin:0 0 16px}.reading-content ul,.reading-content ol{padding-left:23px;margin:10px 0 20px}.reading-content li{padding-left:4px;margin:6px 0}.reading-content code{font-family:'DM Mono',monospace;background:#e8eef0;padding:2px 5px;border-radius:4px;font-size:.9em}.reading-content table{width:100%;border-collapse:collapse;margin:18px 0 26px;font-size:13px}.reading-content th,.reading-content td{padding:12px;border:1px solid #d9e1e5;text-align:left;vertical-align:top}.reading-content th{background:#eaf0f2;color:#172235}.reading-callout{margin:24px 0;padding:18px 20px;border-left:3px solid #34877c;background:#eaf1f1;border-radius:0 10px 10px 0}.reading-callout p{margin:6px 0 0}.related-link{margin-top:30px!important;font-weight:800}.related-link a,.reading-footer a{color:#287c72}.reading-footer{border-top:1px solid #dce3e8;padding:24px 0;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-size:12px;font-weight:800}@media(max-width:600px){.reading-main{padding-top:30px}.reading-container{width:min(100% - 28px,850px)}.reading-content{font-size:14px}.reading-content table{display:block;overflow-x:auto;white-space:normal}.reading-footer{flex-direction:column}}
-/* Shared portfolio header styling for standalone reading pages */
+/* Accessible light reading theme: warm near-white background and dark text */
+.reading-page{background:#f4f3ef!important;color:#29313b!important}
+.reading-page body{background:#f4f3ef!important;color:#29313b!important}
+.reading-page .reading-main{padding:54px 0 80px;background:#f4f3ef;color:#29313b}
+.reading-page .reading-container{width:min(850px,calc(100% - 40px));margin:0 auto}
+.reading-page .back-link{display:inline-block;color:#176b63;font-size:12px;font-weight:800;margin-bottom:28px}
+.reading-page .reading-hero{padding:34px 0 30px;border-bottom:1px solid #cbd1d4}
+.reading-page .reading-hero .eyebrow{color:#8b451f;font:500 11px 'DM Mono',monospace;letter-spacing:.09em}
+.reading-page .reading-hero h1{font-size:clamp(34px,6vw,58px);line-height:1.08;letter-spacing:-.045em;margin:14px 0;color:#18212b!important}
+.reading-page .reading-deck{max-width:680px;font-size:17px;line-height:1.7;color:#435363!important}
+.reading-page .reading-meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:24px;font:500 10px 'DM Mono',monospace;letter-spacing:.08em;color:#526170!important}
+.reading-page .reading-content{padding:30px 0;font-size:15px;line-height:1.85;color:#29313b!important}
+.reading-page .reading-content h2{font-size:25px;line-height:1.25;color:#18212b!important;margin:42px 0 14px;letter-spacing:-.025em}
+.reading-page .reading-content h3{font-size:18px;color:#202b36!important;margin:27px 0 8px}
+.reading-page .reading-content h4,.reading-page .reading-content strong{color:#202b36!important}
+.reading-page .reading-content p{color:#29313b!important;margin:0 0 16px}
+.reading-page .reading-content ul,.reading-page .reading-content ol{padding-left:23px;margin:10px 0 20px;color:#29313b}
+.reading-page .reading-content li{padding-left:4px;margin:6px 0;color:#29313b}
+.reading-page .reading-content a{color:#176b63;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.reading-page .reading-content a:hover{color:#104c47}
+.reading-page .reading-content code{font-family:'DM Mono',monospace;background:#e7e6e0;color:#202b36;padding:2px 5px;border-radius:4px;font-size:.9em}
+.reading-page .reading-content table{width:100%;border-collapse:collapse;margin:18px 0 26px;font-size:13px;color:#29313b}
+.reading-page .reading-content th,.reading-page .reading-content td{padding:12px;border:1px solid #cbd1d4;text-align:left;vertical-align:top;color:#29313b}
+.reading-page .reading-content th{background:#e5e7e5;color:#18212b!important}
+.reading-page .reading-callout{margin:24px 0;padding:18px 20px;border-left:3px solid #176b63;background:#e8eeeb;border-radius:0 10px 10px 0;color:#29313b}
+.reading-page .reading-callout strong{color:#18212b!important}
+.reading-page .reading-callout p{margin:6px 0 0;color:#29313b!important}
+.reading-page .related-link{margin-top:30px!important;font-weight:800}
+.reading-page .related-link a,.reading-page .reading-footer a{color:#176b63}
+.reading-page .reading-footer{border-top:1px solid #cbd1d4;padding:24px 0;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-size:12px;font-weight:800}
 .reading-page .site-header{background:#171719;border-bottom:1px solid #34343a;padding:14px 0}
 .reading-page .nav-wrap{width:min(1100px,calc(100% - 40px));margin:0 auto;display:flex;align-items:center;justify-content:space-between}
 .reading-page .brand{display:flex;align-items:center;gap:10px;color:#e6e6e9;font-weight:800;font-size:13px}
 .reading-page .brand-mark{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#34343a;color:#e6e6e9}
 .reading-page .primary-nav{display:flex;gap:22px}
-.reading-page .primary-nav a{color:#aaaab2;font-size:12px;font-weight:700}
+.reading-page .primary-nav a{color:#d0d0d5;font-size:12px;font-weight:700}
+.reading-page .primary-nav a:hover{color:#fff}
+@media(max-width:600px){.reading-page .reading-main{padding-top:30px}.reading-page .reading-container{width:min(100% - 28px,850px)}.reading-page .reading-content{font-size:14px}.reading-page .reading-content table{display:block;overflow-x:auto;white-space:normal}.reading-page .reading-footer{flex-direction:column}}
