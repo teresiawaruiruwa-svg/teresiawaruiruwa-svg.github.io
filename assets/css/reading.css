@@ -36,3 +36,37 @@
 .reading-page .primary-nav a{color:#d0d0d5;font-size:12px;font-weight:700}
 .reading-page .primary-nav a:hover{color:#fff}
 @media(max-width:600px){.reading-page .reading-main{padding-top:30px}.reading-page .reading-container{width:min(100% - 28px,850px)}.reading-page .reading-content{font-size:14px}.reading-page .reading-content table{display:block;overflow-x:auto;white-space:normal}.reading-page .reading-footer{flex-direction:column}}
+
+/* Final contrast overrides for headings and emphasized text */
+.reading-page,
+.reading-page .reading-main,
+.reading-page .reading-container,
+.reading-page .reading-content {
+  background-color: #f4f3ef !important;
+  color: #29313b !important;
+}
+.reading-page .reading-hero h1,
+.reading-page .reading-content h1,
+.reading-page .reading-content h2,
+.reading-page .reading-content h3,
+.reading-page .reading-content h4,
+.reading-page .reading-content h5,
+.reading-page .reading-content h6,
+.reading-page .reading-content strong,
+.reading-page .reading-content b {
+  color: #18212b !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #18212b !important;
+}
+.reading-page .reading-content p,
+.reading-page .reading-content li,
+.reading-page .reading-content td,
+.reading-page .reading-content th {
+  color: #29313b !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #29313b !important;
+}
+.reading-page .reading-content a {
+  color: #176b63 !important;
+  -webkit-text-fill-color: #176b63 !important;
+}
